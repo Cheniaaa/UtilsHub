@@ -12,6 +12,7 @@
 
     <modules>
         <module>Hutools</module>
+        <module>Netty</module>
     </modules>
 
     <properties>
