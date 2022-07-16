@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加依赖">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/pom.xml" afterDir="false" />
+    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加nettty依赖">
+      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOStresm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/response/IResultStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/response/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/response/ResultStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -39,42 +44,63 @@
   <component name="ProjectId" id="2Bo1PJRBxpCDyaAguD0ZSIrKJzz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11 (2)",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/IOStresm/src/main/java/com/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Facet",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "377f4260d96c9c8fbfb116e81d9f6c21",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\IOStresm\src\main\java\ExcelUtils\utils" />
+      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\src\main\java\Utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\IOStresm\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="ExcelUtils.utils" />
+      <recent name="ExcelUtils.utils.response" />
       <recent name="NettyDemo1.Serve" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JsonObjectUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSONUtils.JsonObjectUtils" />
-      <module name="HuTools" />
+  <component name="RunManager" selected="JUnit.ExcelTest.getList">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NettyDemo1.Client.MyClient" />
+      <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JSONUtils.*" />
+          <option name="PATTERN" value="NettyDemo1.Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,9 +108,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOStresm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelTest.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IOStresm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelTest" />
+      <option name="METHOD_NAME" value="getList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="IOStresm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.IOApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="UtilsHub" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.JsonObjectUtils" />
+        <item itemvalue="JUnit.ExcelTest.getList" />
+        <item itemvalue="JUnit.ExcelTest" />
+        <item itemvalue="Spring Boot.IOApplication" />
+        <item itemvalue="Spring Boot.MainApplication" />
+        <item itemvalue="应用程序.MyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +164,13 @@
       <workItem from="1657585605152" duration="605000" />
       <workItem from="1657586329890" duration="25000" />
       <workItem from="1657697527858" duration="1443000" />
-      <workItem from="1657845434449" duration="1276000" />
+      <workItem from="1657845434449" duration="1780000" />
+      <workItem from="1657931869652" duration="1453000" />
+      <workItem from="1657933346490" duration="1092000" />
+      <workItem from="1657934492296" duration="100000" />
+      <workItem from="1657934624314" duration="8213000" />
+      <workItem from="1657990523165" duration="1681000" />
+      <workItem from="1657992221501" duration="2538000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -110,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657558881136</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加nettty依赖">
+      <created>1657847242938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657847242938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +205,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加依赖" />
+    <MESSAGE value="增加nettty依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加nettty依赖" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

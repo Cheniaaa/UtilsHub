@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.entity.Product">
+    <!--@mbg.generated-->
+    <!--@Table product-->
+    <id column="id" jdbcType="INTEGER" property="pid" />
+    <result column="name" jdbcType="VARCHAR" property="pName" />
+    <result column="subTitle" jdbcType="VARCHAR" property="pSubTitle" />
+    <result column="originalPrice" jdbcType="FLOAT" property="pOriginalPrice" />
+    <result column="promotePrice" jdbcType="FLOAT" property="pPromotePrice" />
+    <result column="stock" jdbcType="INTEGER" property="pStock" />
+    <result column="cid" jdbcType="INTEGER" property="pCid" />
+    <result column="createDate" jdbcType="TIMESTAMP" property="pCreateDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, `name`, subTitle, originalPrice, promotePrice, stock, cid, createDate
+  </sql>
+</mapper>
