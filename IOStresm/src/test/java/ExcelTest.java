@@ -2,7 +2,10 @@ import com.IOApplication;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.entity.Product;
+import com.param.ExcelDataParam;
+import com.param.ExcelParam;
 import com.service.poService.ProductService;
+import lombok.RequiredArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -10,10 +13,12 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Description : 测试Excel
+ * @Description : 测试数据库连接
  * @ProjectName : UtilsHub
  * @Author : 聂晨
  * @Time: 2022/7/17  00:57:57
@@ -21,6 +26,7 @@ import java.util.List;
  */
 
 @SpringBootTest(classes = IOApplication.class)
+@RequiredArgsConstructor
 public class ExcelTest {
 
     private ProductService productService;
@@ -50,5 +56,11 @@ public class ExcelTest {
             jsonArray.put(jsonObject);
         }
         System.out.println(jsonArray);
+    }
+
+
+    @Test
+    public void test1() {
+
     }
 }

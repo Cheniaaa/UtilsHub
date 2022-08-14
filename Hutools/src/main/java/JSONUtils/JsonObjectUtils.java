@@ -28,6 +28,14 @@ public class JsonObjectUtils {
         keyArray.put(map.keySet());
         System.out.println(result);
         System.out.println(keyArray.get(0));
+        System.out.println("======================");
 
+
+        JSONArray jsonArray = new JSONArray();
+        jsonArray.put(new JSONObject().set("name", "超压").set("value", 1));
+        jsonArray.put(new JSONObject().set("name", "低压").set("value", 2));
+        jsonArray.put(new JSONObject().set("name", "超温").set("value", 3));
+        jsonArray.put(new JSONObject().set("name", "漏电").set("value", 4));
+        System.out.println(jsonArray);
     }
 }

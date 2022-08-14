@@ -1,4 +1,4 @@
-package NettyDemo1.Server;
+package netty.server;
 
 /**
  * @Description : 服务端处理器
