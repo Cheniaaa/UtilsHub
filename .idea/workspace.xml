@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="NIO操作">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/param/ExcelDataParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/param/ExcelParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOStresm/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/byteBufferDemo/ByteBufferMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/demo/demo1/TestByteBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/demo/demo1/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/fileChannelDemo/FileChannelMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/fileChannelDemo/from.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/fileChannelDemo/to.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/utils/ByteBufferUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/test/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/test/java/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f61f5dab-a59a-44e4-bcc2-35c188bf5137.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hutools/src/main/java/JSONUtils/JsonObjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hutools/src/main/java/JSONUtils/JsonObjectUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOStresm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOStresm/src/main/java/com/controller/ExportExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/controller/ExcelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOStresm/src/main/java/com/service/ExportExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/service/ExcelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOStresm/src/main/java/com/utils/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/src/main/java/com/utils/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOStresm/src/test/java/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/src/test/java/ExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/NettyDemo1/Client/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/client/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/NettyDemo1/Client/MyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/client/MyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/NettyDemo1/Server/MyServe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/server/MyServe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/NettyDemo1/Server/MyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/server/MyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/nio/nioDemo/nioSelector/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Test2">
+  <component name="RunManager" selected="应用程序.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.nioDemo.nioSelector.Client" />
       <module name="Netty" />
@@ -179,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Test2" />
         <item itemvalue="应用程序.Client" />
         <item itemvalue="应用程序.Server" />
+        <item itemvalue="应用程序.Test2" />
         <item itemvalue="应用程序.FileChannelMethod" />
         <item itemvalue="应用程序.Test1" />
       </list>
@@ -228,7 +203,7 @@
       <workItem from="1660233995077" duration="141000" />
       <workItem from="1660234147417" duration="5156000" />
       <workItem from="1660297889515" duration="3822000" />
-      <workItem from="1660490994475" duration="3285000" />
+      <workItem from="1660490994475" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -258,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660497969997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="NIO操作">
+      <created>1660498009556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660498009556</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

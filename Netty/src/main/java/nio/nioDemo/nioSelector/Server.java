@@ -79,12 +79,10 @@ public class Server {
 
                         int read = channel.read(buffer);
                         if (read == -1) {//客户端正常断开
-                            key.channel();
+                            key.cancel();
                         } else {
-
                             //处理事件
                             splitData(buffer);
-
 
                             //扩容
                             if (buffer.position() == buffer.limit()) {
@@ -93,11 +91,10 @@ public class Server {
                                 newBuffer.put(buffer);
                                 key.attach(newBuffer);
                             }
-
                         }
                     } catch (IOException e) {//客户端异常断开
                         e.printStackTrace();
-                        key.channel();//客户端断开，因此需要取消事件
+                        key.cancel();//客户端断开，因此需要取消事件
                     }
                 }
             }
@@ -123,6 +120,4 @@ public class Server {
         }
         buffer.compact();
     }
-
-
 }
