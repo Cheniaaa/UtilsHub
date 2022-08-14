@@ -1,7 +1,7 @@
-package com.utils;
+package common.utils;
 
-import com.param.ExcelDataParam;
-import com.param.ExcelParam;
+import common.param.ExcelDataParam;
+import common.param.ExcelParam;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;

@@ -1,4 +1,4 @@
-package com.response;
+package common.response;
 
 
 public interface IResultStatus {

@@ -1,4 +1,4 @@
-package com.param;
+package common.param;
 
 
 import lombok.AllArgsConstructor;

@@ -1,10 +1,8 @@
-import com.IOApplication;
+import common.IOApplication;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.entity.Product;
-import com.param.ExcelDataParam;
-import com.param.ExcelParam;
-import com.service.poService.ProductService;
+import common.entity.Product;
+import common.service.poService.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,8 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

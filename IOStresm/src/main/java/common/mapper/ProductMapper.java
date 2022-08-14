@@ -1,7 +1,7 @@
-package com.mapper;
+package common.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.entity.Product;
+import common.entity.Product;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

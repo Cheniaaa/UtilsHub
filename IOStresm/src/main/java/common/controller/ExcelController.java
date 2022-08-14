@@ -1,8 +1,8 @@
-package com.controller;
+package common.controller;
 
-import com.entity.Product;
-import com.service.ExcelService;
-import com.service.poService.ProductService;
+import common.entity.Product;
+import common.service.ExcelService;
+import common.service.poService.ProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
