@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="netty协议">
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/byteBufDemo/ByteBufZeroCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/byteBufDemo/CreateByteBuf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/channelFutureDemo/JdkFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/channelFutureDemo/NettyFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/channelFutureDemo/NettyPromise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/channelFutureDemo/channelFutureClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/eventloopDemo/common/CommonEventLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/eventloopDemo/io/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/eventloopDemo/io/EventLoopServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/eventloopDemo/io/EventLoopServerImprove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/helloDemo/HelloClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/helloDemo/HelloServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/RedisProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/stickPackDemo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/stickPackDemo/FixLenDecServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/stickPackDemo/LineBaseDecServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/stickPackDemo/LtcDecServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/utils/ByteBufCustomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/utils/EmbeddedChannelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/client/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/client/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/client/MyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/client/MyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/server/MyServe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/server/MyServe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/server/MyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/server/MyServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +40,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;29593f&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/Netty/src/main/java/netty/demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.reader.mode&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;954cf359da871f0ab2d2e7a7042fa749&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "29593f",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/Netty/src/main/java/netty/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Facet",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "954cf359da871f0ab2d2e7a7042fa749",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -121,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.RedisProtocol">
+  <component name="RunManager" selected="应用程序.HttpProtocol">
     <configuration name="CreateByteBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.demo.byteBufDemo.CreateByteBuf" />
       <module name="Netty" />
@@ -148,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LtcDecServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.stickPackDemo.LtcDecServer" />
+    <configuration name="HttpProtocol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.HttpProtocol" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.demo.stickPackDemo.*" />
+          <option name="PATTERN" value="netty.demo.protocolDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyPromise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.channelFutureDemo.NettyPromise" />
+    <configuration name="LtcDecServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.stickPackDemo.LtcDecServer" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.demo.channelFutureDemo.*" />
+          <option name="PATTERN" value="netty.demo.stickPackDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.HttpProtocol" />
         <item itemvalue="应用程序.RedisProtocol" />
         <item itemvalue="应用程序.LtcDecServer" />
         <item itemvalue="应用程序.EmbeddedChannelUtil" />
         <item itemvalue="应用程序.CreateByteBuf" />
-        <item itemvalue="应用程序.NettyPromise" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +223,9 @@
       <workItem from="1661706786204" duration="933000" />
       <workItem from="1661716791037" duration="29000" />
       <workItem from="1661843628285" duration="1195000" />
-      <workItem from="1661935294962" duration="8606000" />
+      <workItem from="1661935294962" duration="8795000" />
+      <workItem from="1661945023655" duration="244000" />
+      <workItem from="1661959441385" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -312,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661944770863</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="netty协议">
+      <created>1661944872126</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661944872126</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +314,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="UtilsLib/master" />
                       </list>
                     </value>
                   </entry>
