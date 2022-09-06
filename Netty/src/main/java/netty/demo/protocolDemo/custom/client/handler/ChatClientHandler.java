@@ -5,6 +5,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
+import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.handler.timeout.IdleStateHandler;
@@ -38,15 +39,19 @@ public class ChatClientHandler extends ChannelInitializer<SocketChannel> {
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ch.pipeline().addLast(new ProtocolFrameDecoder());
+        ch.pipeline().addLast(new LoggingHandler());
         ch.pipeline().addLast(MESSAGE_CODEC);
         //时长要比服务端短一些，作为心跳信号
-        ch.pipeline().addLast(new IdleStateHandler(0, 3, 0));
+        ch.pipeline().addLast(new IdleStateHandler(0, 7, 0));
+        // ChannelDuplexHandler 可以同时作为入站和出站处理器
         ch.pipeline().addLast(new ChannelDuplexHandler() {
+            // 用来触发特殊事件
             @Override
-            public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
-                IdleStateEvent stateEvent = (IdleStateEvent) evt;
-                if (stateEvent.state() == IdleState.WRITER_IDLE) {
-                    ctx.writeAndFlush(new PingMessage());//心跳
+            public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception{
+                IdleStateEvent event = (IdleStateEvent) evt;
+                // 触发了写空闲事件
+                if (event.state() == IdleState.WRITER_IDLE) {
+                    ctx.writeAndFlush(new PingMessage());//心跳包
                 }
             }
         });

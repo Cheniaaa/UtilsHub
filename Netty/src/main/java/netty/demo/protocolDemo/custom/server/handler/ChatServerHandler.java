@@ -31,7 +31,7 @@ public class ChatServerHandler extends ChannelInitializer<SocketChannel> {
     GroupMemberMessageHandler GROUP_MEMBER = new GroupMemberMessageHandler();
     GroupJoinMessageHandler GROUP_JOIN = new GroupJoinMessageHandler();
     GroupQuitMessageHandler GROUP_QUIT = new GroupQuitMessageHandler();
-    QuitHandler QUIT = new QuitHandler();
+    QuitHandler QUIT_HANDLER = new QuitHandler();
 
 
     @Override
@@ -40,16 +40,16 @@ public class ChatServerHandler extends ChannelInitializer<SocketChannel> {
         ch.pipeline().addLast(LOGGING_HANDLER);
         ch.pipeline().addLast(MESSAGE_CODEC);
         //判断读空闲过长，会触发事件
-        ch.pipeline().addLast(new IdleStateHandler(5, 0, 0));
-        //可以同时为出栈入栈处理器
+        ch.pipeline().addLast(new IdleStateHandler(10, 0, 0));
+        // ChannelDuplexHandler 可以同时作为入站和出站处理器
         ch.pipeline().addLast(new ChannelDuplexHandler() {
-            //当出现特殊事件时触发
+            // 用来触发特殊事件
             @Override
-            public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+            public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception{
                 IdleStateEvent event = (IdleStateEvent) evt;
                 // 触发了读空闲事件
                 if (event.state() == IdleState.READER_IDLE) {
-                    log.debug("已经 5s 没有读到数据了");
+                    log.debug("已经 10s 没有读到数据了");
                     ctx.channel().close();
                 }
             }
@@ -57,10 +57,10 @@ public class ChatServerHandler extends ChannelInitializer<SocketChannel> {
         ch.pipeline().addLast(LOGIN_HANDLER);
         ch.pipeline().addLast(CHAT_HANDLER);
         ch.pipeline().addLast(GROUP_CREATE);
-        ch.pipeline().addLast(GROUP_CHAT);
         ch.pipeline().addLast(GROUP_MEMBER);
         ch.pipeline().addLast(GROUP_JOIN);
         ch.pipeline().addLast(GROUP_QUIT);
-        ch.pipeline().addLast(QUIT);
+        ch.pipeline().addLast(GROUP_CHAT);
+        ch.pipeline().addLast(QUIT_HANDLER);
     }
 }

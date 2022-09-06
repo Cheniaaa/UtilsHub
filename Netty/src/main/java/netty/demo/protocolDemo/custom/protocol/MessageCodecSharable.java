@@ -5,12 +5,8 @@ import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageCodec;
 import lombok.extern.slf4j.Slf4j;
+import netty.demo.protocolDemo.custom.config.Config;
 import netty.demo.protocolDemo.custom.message.Message;
-
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.util.List;
 
 @Slf4j
@@ -24,14 +20,11 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         ByteBuf out = ctx.alloc().buffer();
         out.writeBytes(new byte[]{1, 2, 3, 4});
         out.writeByte(1);
-        out.writeByte(0);
+        out.writeByte(Config.getSerializerAlgorithm().ordinal());
         out.writeByte(msg.getMessageType());
         out.writeInt(msg.getSequenceId());
         out.writeByte(0xff);
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(bos);
-        oos.writeObject(msg);
-        byte[] bytes = bos.toByteArray();
+        byte[] bytes = Config.getSerializerAlgorithm().serialize(msg);
         out.writeInt(bytes.length);
         out.writeBytes(bytes);
         ctx.writeAndFlush(out);
@@ -41,17 +34,19 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         int magicNum = in.readInt();
         byte version = in.readByte();
-        byte serializerType = in.readByte();
+        byte serializerAlgorithm = in.readByte();
         byte messageType = in.readByte();
         int sequenceId = in.readInt();
         in.readByte();
         int length = in.readInt();
         byte[] bytes = new byte[length];
         in.readBytes(bytes, 0, length);
-        ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(bytes));
-        Message message = (Message) ois.readObject();
-        log.debug("{}, {}, {}, {}, {}, {}", magicNum, version, serializerType, messageType, sequenceId, length);
-        log.debug("{}", message);
+
+        // 找到反序列化算法
+        Serializer.Algorithm algorithm = Serializer.Algorithm.values()[serializerAlgorithm];
+        // 确定具体消息类型
+        Class<? extends Message> messageClass = Message.getMessageClass(messageType);
+        Message message = algorithm.deserialize(messageClass, bytes);
         out.add(message);
     }
 
