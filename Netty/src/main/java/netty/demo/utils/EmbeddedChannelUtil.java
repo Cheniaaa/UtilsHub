@@ -1,9 +1,14 @@
 package netty.demo.utils;
 
+import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import io.netty.channel.*;
 import io.netty.channel.embedded.EmbeddedChannel;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 import lombok.extern.slf4j.Slf4j;
+
+import java.nio.charset.Charset;
 
 /**
  * @Description :handler测试工具
@@ -18,18 +23,23 @@ public class EmbeddedChannelUtil {
         ChannelInitializer<Channel> h1 = new ChannelInitializer<>() {
             @Override
             protected void initChannel(Channel channel) throws Exception {
+                channel.pipeline().addLast(new LoggingHandler(LogLevel.DEBUG));
                 channel.pipeline().addLast(new ChannelInboundHandlerAdapter() {
                     @Override
                     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-                        log.debug("111");
+                        ByteBuf byteBuf = (ByteBuf) msg;
+                        log.debug("{}",byteBuf.toString(Charset.defaultCharset()));
                         super.channelRead(ctx, msg);
                     }
                 }).addLast(new ChannelOutboundHandlerAdapter() {
                     @Override
                     public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
-                        log.debug("222");
+                        ByteBuf byteBuf = (ByteBuf) msg;
+                        log.debug("{}",byteBuf.toString(Charset.defaultCharset()));
                     }
                 });
+
+
             }
 
         };
@@ -38,8 +48,9 @@ public class EmbeddedChannelUtil {
         该类可以用于测试handler
          */
         EmbeddedChannel embeddedChannel = new EmbeddedChannel(h1);
-        //embeddedChannel.writeInbound(ByteBufAllocator.DEFAULT.buffer().writeBytes("hello".getBytes()));
-        embeddedChannel.writeOutbound(ByteBufAllocator.DEFAULT.buffer().writeBytes("world".getBytes()));
+        embeddedChannel.writeInbound(ByteBufAllocator.DEFAULT.buffer().writeBytes("hello".getBytes()));
+//        embeddedChannel.writeOutbound(ByteBufAllocator.DEFAULT.buffer().writeBytes("world".getBytes()));
+
 
     }
 }

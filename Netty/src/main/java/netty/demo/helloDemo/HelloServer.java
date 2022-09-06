@@ -19,6 +19,10 @@ import java.net.InetSocketAddress;
  * @Version : 1.0
  */
 
+
+/**
+ * 入栈解码，出栈编码
+ */
 public class HelloServer {
     public static void main(String[] args) {
         new ServerBootstrap()
