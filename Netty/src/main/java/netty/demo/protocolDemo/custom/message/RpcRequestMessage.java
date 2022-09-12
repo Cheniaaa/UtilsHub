@@ -3,9 +3,7 @@ package netty.demo.protocolDemo.custom.message;
 import lombok.Getter;
 import lombok.ToString;
 
-/**
- * @author yihang
- */
+
 @Getter
 @ToString(callSuper = true)
 public class RpcRequestMessage extends Message {
@@ -25,13 +23,14 @@ public class RpcRequestMessage extends Message {
     /**
      * 方法参数类型数组
      */
-    private Class[] parameterTypes;
+    private Class<?>[] parameterTypes;
     /**
      * 方法参数值数组
      */
     private Object[] parameterValue;
 
-    public RpcRequestMessage(int sequenceId, String interfaceName, String methodName, Class<?> returnType, Class[] parameterTypes, Object[] parameterValue) {
+
+    public RpcRequestMessage(int sequenceId, String interfaceName, String methodName, Class<?> returnType, Class<?>[] parameterTypes, Object[] parameterValue) {
         super.setSequenceId(sequenceId);
         this.interfaceName = interfaceName;
         this.methodName = methodName;

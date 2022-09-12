@@ -9,11 +9,11 @@ import netty.demo.protocolDemo.custom.config.Config;
 import netty.demo.protocolDemo.custom.message.Message;
 import java.util.List;
 
-@Slf4j
-@ChannelHandler.Sharable
 /*
   必须和 LengthFieldBasedFrameDecoder 一起使用，确保接到的 ByteBuf 消息是完整的
  */
+@Slf4j
+@ChannelHandler.Sharable
 public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message> {
     @Override
     public void encode(ChannelHandlerContext ctx, Message msg, List<Object> outList) throws Exception {
@@ -27,15 +27,15 @@ public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message
         byte[] bytes = Config.getSerializerAlgorithm().serialize(msg);
         out.writeInt(bytes.length);
         out.writeBytes(bytes);
-        ctx.writeAndFlush(out);
+        outList.add(out);
     }
 
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
         int magicNum = in.readInt();
         byte version = in.readByte();
-        byte serializerAlgorithm = in.readByte();
-        byte messageType = in.readByte();
+        byte serializerAlgorithm = in.readByte(); // 0 或 1
+        byte messageType = in.readByte(); // 0,1,2...
         int sequenceId = in.readInt();
         in.readByte();
         int length = in.readInt();

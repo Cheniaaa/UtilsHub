@@ -4,15 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="聊天室案例">
+    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="rpc案例">
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/client/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/client/handler/RpcClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/client/handler/RpcResponseMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol/SequenceIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/proxy/ProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/RpcRequestMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/init/RpcServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/service/ServicesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/test/RpcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/utils/TestEmbedded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hutools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hutools/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/client/handler/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/client/handler/ChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/PingMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/PingMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/helloDemo/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/helloDemo/HelloServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/RpcRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/RpcRequestMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/RpcResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/message/RpcResponseMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol/MessageCodecSharable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol/MessageCodecSharable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/java/netty/demo/protocolDemo/custom/server/handler/init/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netty/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Netty/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,15 +78,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/Netty/src/main/java/netty/demo/protocolDemo/custom/protocol&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/Netty/src/main/java/netty/demo/protocolDemo/custom/server/service&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facet&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;全局库&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20822622&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;954cf359da871f0ab2d2e7a7042fa749&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -83,22 +101,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\server\service" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\protocol" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\config" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\customProtocol\protocol" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\customProtocol\server" />
-      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\customProtocol" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\IOStresm\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="netty.demo.protocolDemo.custom.server.handler.init" />
       <recent name="netty.demo.protocolDemo.commonProtocol" />
       <recent name="netty.demo.protocolDemo" />
       <recent name="netty.demo.protocolDemo.customProtocol.test" />
       <recent name="netty.demo.eventloopDemo.common" />
-      <recent name="com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +126,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.ChatClient">
+  <component name="RunManager" selected="应用程序.TestEmbedded">
     <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.custom.client.ChatClient" />
       <module name="Netty" />
@@ -122,8 +140,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.custom.server.ChatServer" />
+    <configuration name="CreateByteBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.byteBufDemo.CreateByteBuf" />
+      <module name="Netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.demo.byteBufDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.custom.client.RpcClient" />
+      <module name="Netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.demo.protocolDemo.custom.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.custom.server.RpcServer" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmbeddedChannelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.utils.EmbeddedChannelUtil" />
+    <configuration name="TestEmbedded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.demo.utils.TestEmbedded" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
@@ -148,46 +192,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpProtocol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.common.HttpProtocol" />
-      <module name="Netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.demo.protocolDemo.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMessageProtocol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.demo.protocolDemo.custom.test.TestMessageProtocol" />
-      <module name="Netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.demo.protocolDemo.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="应用程序.CreateByteBuf" />
+      <item itemvalue="应用程序.TestEmbedded" />
+      <item itemvalue="应用程序.RpcClient" />
+      <item itemvalue="应用程序.RpcServer" />
       <item itemvalue="应用程序.ChatClient" />
-      <item itemvalue="应用程序.ChatServer" />
-      <item itemvalue="应用程序.EmbeddedChannelUtil" />
-      <item itemvalue="应用程序.HttpProtocol" />
-      <item itemvalue="应用程序.TestMessageProtocol" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestEmbedded" />
+        <item itemvalue="应用程序.CreateByteBuf" />
+        <item itemvalue="应用程序.RpcClient" />
+        <item itemvalue="应用程序.RpcServer" />
         <item itemvalue="应用程序.ChatClient" />
-        <item itemvalue="应用程序.ChatServer" />
-        <item itemvalue="应用程序.TestMessageProtocol" />
-        <item itemvalue="应用程序.HttpProtocol" />
-        <item itemvalue="应用程序.EmbeddedChannelUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +275,14 @@
       <workItem from="1662451547889" duration="1907000" />
       <workItem from="1662455203851" duration="1032000" />
       <workItem from="1662456248506" duration="9299000" />
-      <workItem from="1662466867398" duration="6698000" />
+      <workItem from="1662466867398" duration="7564000" />
+      <workItem from="1662485727888" duration="3884000" />
+      <workItem from="1662553977992" duration="12559000" />
+      <workItem from="1662617168234" duration="23162000" />
+      <workItem from="1662663622300" duration="4176000" />
+      <workItem from="1662712602829" duration="14588000" />
+      <workItem from="1662899231806" duration="559000" />
+      <workItem from="1662899804255" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -343,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662458554950</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="完善序列化反序列化操作">
+      <created>1662473642622</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662473642622</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +414,9 @@
     <MESSAGE value="netty协议" />
     <MESSAGE value="http协议" />
     <MESSAGE value="聊天室案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="聊天室案例" />
+    <MESSAGE value="完善序列化反序列化操作" />
+    <MESSAGE value="rpc案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="rpc案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,6 +431,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Class" memberName="classLoader" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,7 +5,7 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import lombok.extern.slf4j.Slf4j;
-import netty.demo.protocolDemo.custom.server.handler.*;
+import netty.demo.protocolDemo.custom.server.handler.init.ChatServerHandler;
 
 /**
  * @Description : 聊天案例服务端

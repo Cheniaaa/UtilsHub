@@ -16,7 +16,7 @@ public class RpcResponseMessage extends Message {
     /**
      * 异常值
      */
-    private Exception exceptionValue;
+    private Object exceptionValue;
 
     @Override
     public int getMessageType() {
