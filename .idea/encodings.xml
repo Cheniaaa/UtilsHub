@@ -3,7 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Hutools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IOStresm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LeetCode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq/Consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq/Publisher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

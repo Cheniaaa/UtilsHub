@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: /
+    username: admin
+    password: 123456
+    listener:
+      simple:
+        prefetch: 1  #执行完当前数据后再拿数据（减少因为处理性能原因导致阻塞）
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss
