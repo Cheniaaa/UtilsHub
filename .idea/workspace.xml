@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="rpc案例">
-      <change afterPath="$PROJECT_DIR$/RabbitMq/Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMq/Publisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMq/pom.xml" afterDir="false" />
+    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加rabbitmq模块">
+      <change afterPath="$PROJECT_DIR$/ElasticSearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hutools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hutools/src/main/java/JSONUtils/JsonObjectUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IOStresm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IOStresm/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -26,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -56,48 +54,49 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Project.color": "29593f",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_directory_selection": "E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/LeetCode/src/main/java/practice",
-    "last_opened_file_path": "E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/RabbitMq/Publisher/src/main/java/cn/publisher",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "全局库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20822622",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "d6cc0f5c40212f9b761d60b36590a07c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Project.color&quot;: &quot;29593f&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/LeetCode/src/main/java/practice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/ElasticSearch/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;全局库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20822622&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cead836290e0b54e6f3e347b2b4e2b56&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\ElasticSearch\src\main\resources" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\server\service" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\protocol" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\custom\config" />
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\customProtocol\protocol" />
-      <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\Netty\src\main\java\netty\demo\protocolDemo\customProtocol\server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ProjectData\Study_Material\StudyTestDemo\JavaProject\UtilsHub\RabbitMq\Publisher\src\main\java\cn\publisher" />
@@ -119,73 +118,74 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DesignPatternApplication">
-    <configuration name="SpringAmqpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Publisher" />
+  <component name="RunManager" selected="应用程序.WebSocketApplication">
+    <configuration name="WebSocketApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.WebSocketApplication" />
+      <module name="WebSocket" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.SpringAmqpTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAmqpTest.fanoutSendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Publisher" />
+    <configuration name="EsDocTest.bulkAddDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElasticSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="cn.esApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.SpringAmqpTest" />
-      <option name="METHOD_NAME" value="fanoutSendMsg" />
+      <option name="PACKAGE_NAME" value="cn.esApi" />
+      <option name="MAIN_CLASS_NAME" value="cn.esApi.EsDocTest" />
+      <option name="METHOD_NAME" value="bulkAddDoc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAmqpTest.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Publisher" />
+    <configuration name="EsIndexTest.delIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElasticSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="cn.esApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.SpringAmqpTest" />
-      <option name="METHOD_NAME" value="sendMsg" />
+      <option name="PACKAGE_NAME" value="cn.esApi" />
+      <option name="MAIN_CLASS_NAME" value="cn.esApi.EsIndexTest" />
+      <option name="METHOD_NAME" value="delIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.consumer.ConsumerApplication" />
+    <configuration name="EsSearchTest.completeSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElasticSearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.consumer.*" />
+          <option name="PATTERN" value="cn.esApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.esApi" />
+      <option name="MAIN_CLASS_NAME" value="cn.esApi.EsSearchTest" />
+      <option name="METHOD_NAME" value="completeSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatternApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="TestModule" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.mode.DesignPatternApplication" />
+    <configuration name="WebSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="WebSocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="socket.WebSocketApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.mode.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +194,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringAmqpTest.fanoutSendMsg" />
-      <item itemvalue="JUnit.SpringAmqpTest" />
-      <item itemvalue="JUnit.SpringAmqpTest.sendMsg" />
-      <item itemvalue="Spring Boot.DesignPatternApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="JUnit.EsDocTest.bulkAddDoc" />
+      <item itemvalue="JUnit.EsIndexTest.delIndex" />
+      <item itemvalue="JUnit.EsSearchTest.completeSearch" />
+      <item itemvalue="应用程序.WebSocketApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DesignPatternApplication" />
-        <item itemvalue="JUnit.SpringAmqpTest.fanoutSendMsg" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
-        <item itemvalue="JUnit.SpringAmqpTest.sendMsg" />
-        <item itemvalue="JUnit.SpringAmqpTest" />
+        <item itemvalue="应用程序.WebSocketApplication" />
+        <item itemvalue="JUnit.EsSearchTest.completeSearch" />
+        <item itemvalue="JUnit.EsIndexTest.delIndex" />
+        <item itemvalue="JUnit.EsDocTest.bulkAddDoc" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +317,29 @@
       <workItem from="1665913811478" duration="219000" />
       <workItem from="1666185046586" duration="12000" />
       <workItem from="1666185825871" duration="154000" />
-      <workItem from="1666185991200" duration="1091000" />
+      <workItem from="1666185991200" duration="6678000" />
+      <workItem from="1666256111558" duration="2561000" />
+      <workItem from="1666265024421" duration="5057000" />
+      <workItem from="1666281200686" duration="3319000" />
+      <workItem from="1666313714455" duration="2699000" />
+      <workItem from="1666342207098" duration="2790000" />
+      <workItem from="1666371665378" duration="5203000" />
+      <workItem from="1666423347447" duration="13256000" />
+      <workItem from="1666501688756" duration="27000" />
+      <workItem from="1666543350129" duration="2141000" />
+      <workItem from="1666592655254" duration="4000" />
+      <workItem from="1667150061503" duration="3562000" />
+      <workItem from="1667192554537" duration="71000" />
+      <workItem from="1667660496563" duration="819000" />
+      <workItem from="1667735347665" duration="12000" />
+      <workItem from="1667735380025" duration="255000" />
+      <workItem from="1668056111125" duration="107000" />
+      <workItem from="1668056260865" duration="294000" />
+      <workItem from="1668056575463" duration="68000" />
+      <workItem from="1668056664480" duration="43000" />
+      <workItem from="1668056729002" duration="262000" />
+      <workItem from="1668057018250" duration="4000" />
+      <workItem from="1668153802917" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -419,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662974334664</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加rabbitmq模块">
+      <created>1666188448148</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666188448148</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +487,8 @@
     <MESSAGE value="聊天室案例" />
     <MESSAGE value="完善序列化反序列化操作" />
     <MESSAGE value="rpc案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="rpc案例" />
+    <MESSAGE value="增加rabbitmq模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加rabbitmq模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

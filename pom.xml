@@ -15,6 +15,8 @@
         <module>IOStresm</module>
         <module>LeetCode</module>
         <module>RabbitMq</module>
+        <module>ElasticSearch</module>
+        <module>WebSocket</module>
     </modules>
 
     <parent>
@@ -75,8 +77,6 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>3.0.0</version>
         </dependency>
-
-
 
     </dependencies>
 
