@@ -47,7 +47,7 @@ public class WebSocketController {
         List<String> ids = WebSocketServer.getIds();
         int count = WebSocketServer.getUserCount();
         JSONObject jsonObject = new JSONObject();
-        jsonObject.set("users", ids).set("count",count);
+        jsonObject.set("users", ids).set("count", count);
         return jsonObject;
     }
 

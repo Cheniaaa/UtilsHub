@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+  <component name="dataSourceStorageLocal" created-in="IU-223.7571.182">
     <data-source name="mysql" uuid="f61f5dab-a59a-44e4-bcc2-35c188bf5137">
       <database-info product="MySQL" version="8.0.25" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.25" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
@@ -16,6 +16,16 @@
             <name qname="test" />
             <name qname="tmall_springboot" />
           </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redis" uuid="67f770d4-3ccb-45f6-8694-1b4d95b1f45d">
+      <database-info product="Redis" version="3.2.100" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.2" dbms="REDIS" exact-version="3.2" exact-driver-version="1.2" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="0" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

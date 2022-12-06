@@ -12,11 +12,11 @@
 
     <modules>
         <module>Netty</module>
-        <module>IOStresm</module>
-        <module>LeetCode</module>
+        <module>Excel</module>
         <module>RabbitMq</module>
         <module>ElasticSearch</module>
         <module>WebSocket</module>
+        <module>UnitUtils</module>
     </modules>
 
     <parent>
