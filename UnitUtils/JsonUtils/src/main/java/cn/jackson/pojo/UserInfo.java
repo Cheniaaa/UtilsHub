@@ -3,6 +3,7 @@ package cn.jackson.pojo;
 import cn.jackson.deserializer.UserInfoDeserializer;
 import cn.jackson.deserializer.UserInfoSerializer;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
@@ -29,5 +30,7 @@ public class UserInfo implements Serializable {
     private Integer id;
     private String username;
     private Integer age;
+
+
 
 }

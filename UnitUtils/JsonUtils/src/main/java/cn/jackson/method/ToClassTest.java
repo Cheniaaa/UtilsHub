@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -95,6 +96,7 @@ public class ToClassTest {
         UserInfo[] userInfoArr = objectMapper.readValue(strBytes, UserInfo[].class);
         System.out.println(Arrays.toString(userInfoArr));
 
+
         //也可以直接转换成List类型
         List<UserInfo> userInfoList = objectMapper.readValue(strBytes, new TypeReference<List<UserInfo>>() {
         });
@@ -108,8 +110,7 @@ public class ToClassTest {
     @Test
     public void jsonStrToMap() throws IOException {
         String jsonStr = "{\"id\":1,\"username\":\"NieChen\",\"age\":21}";
-        Map<String, Object> map = objectMapper.readValue(jsonStr, new TypeReference<Map<String, Object>>() {
-        });
+        Map<String, Object> map = objectMapper.readValue(jsonStr, new TypeReference<Map<String, Object>>() {});
         System.out.println(map);
     }
 

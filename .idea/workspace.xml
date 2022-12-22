@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加JsonGenerator和JsonParser">
+    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加JsonGenerator的writeObjectField方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/method/JsonGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/method/JsonGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/deserializer/UserInfoDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/deserializer/UserInfoDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/method/ToClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/method/ToClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/JsonUtils/src/main/java/cn/jackson/pojo/UserInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,41 +56,42 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Activity&quot;,
-    &quot;Project.color&quot;: &quot;29593f&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_directory_selection&quot;: &quot;E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/LeetCode/src/main/java/practice&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ProjectData/Java/Study_Material/StudyTestDemo/JavaProject/UtilsHub/UnitUtils/JsonUtils/src/main/java/cn/jackson&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20822622&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8f9addd00130dd08b37ed8258d9ec90a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "UML Activity",
+    "Project.color": "29593f",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_directory_selection": "E:/ProjectData/Study_Material/StudyTestDemo/JavaProject/UtilsHub/LeetCode/src/main/java/practice",
+    "last_opened_file_path": "E:/ProjectData/Java/Study_Material/StudyTestDemo/JavaProject/UtilsHub/UnitUtils/JsonUtils/src/main/java/cn/jackson",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20822622",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "8f9addd00130dd08b37ed8258d9ec90a",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -389,7 +392,7 @@
       <workItem from="1671540065500" duration="6007000" />
       <workItem from="1671560316826" duration="111000" />
       <workItem from="1671634304743" duration="4349000" />
-      <workItem from="1671719354198" duration="1872000" />
+      <workItem from="1671719354198" duration="9841000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -524,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671645629051</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="增加JsonGenerator的writeObjectField方法">
+      <created>1671721438017</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671721438017</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +580,8 @@
     <MESSAGE value="添加UnitUtils模块" />
     <MESSAGE value="增加jackson知识点" />
     <MESSAGE value="增加JsonGenerator和JsonParser" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加JsonGenerator和JsonParser" />
+    <MESSAGE value="增加JsonGenerator的writeObjectField方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加JsonGenerator的writeObjectField方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
