@@ -13,8 +13,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>HttpUtils</module>
-        <module>BeanUtil</module>
+        <module>BeanUtils</module>
         <module>JsonUtils</module>
+        <module>LogUtils</module>
+        <module>ScheduledUtils</module>
     </modules>
 
     <properties>

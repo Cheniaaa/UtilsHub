@@ -1,0 +1,37 @@
+2023-01-09 02:39:18.761 [main] INFO  cn.logback.LogbackApplication -[logStarting] Line:55 - Starting LogbackApplication using Java 17.0.5 on LAPTOP-NC with PID 38916 (E:\ProjectData\Java\Study_Material\StudyTestDemo\JavaProject\UtilsHub\UnitUtils\LogUtils\target\classes started by 聂晨 in E:\ProjectData\Java\Study_Material\StudyTestDemo\JavaProject\UtilsHub)
+2023-01-09 02:39:18.764 [main] INFO  cn.logback.LogbackApplication -[logStartupProfileInfo] Line:659- No active profile set, falling back to default profiles: default
+2023-01-09 02:39:19.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -[initialize] Line:108- Tomcat initialized with port(s): 8080 (http)
+2023-01-09 02:39:19.281 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -[log] Line:173- Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-09 02:39:19.291 [main] INFO  org.apache.catalina.core.StandardService -[log] Line:173- Starting service [Tomcat]
+2023-01-09 02:39:19.292 [main] INFO  org.apache.catalina.core.StandardEngine -[log] Line:173- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-01-09 02:39:19.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-01-09 02:39:19.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-09 02:39:19.294 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-09 02:39:19.298 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-01-09 02:39:19.350 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -[log] Line:173- Initializing Spring embedded WebApplicationContext
+2023-01-09 02:39:19.351 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -[prepareWebApplicationContext] Line:290- Root WebApplicationContext: initialization completed in 557 ms
+2023-01-09 02:39:19.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -[log] Line:173- Starting ProtocolHandler ["http-nio-8080"]
+2023-01-09 02:39:19.572 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -[start] Line:220- Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-09 02:39:19.578 [main] INFO  cn.logback.LogbackApplication -[logStarted] Line:61 - Started LogbackApplication in 1.139 seconds (JVM running for 1.565)
+2023-01-09 02:39:23.903 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -[log] Line:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09 02:39:23.904 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -[initServletBean] Line:525- Initializing Servlet 'dispatcherServlet'
+2023-01-09 02:39:23.904 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -[initServletBean] Line:547- Completed initialization in 0 ms
+2023-01-09 02:39:23.921 [http-nio-8080-exec-1] INFO  cn.logback.service.UserInfoService -[modifyUserInfo] Line:21 - 姓名：NieChen 年龄：21
+2023-01-09 02:40:11.462 [main] INFO  cn.logback.LogbackApplication -[logStarting] Line:55 - Starting LogbackApplication using Java 17.0.5 on LAPTOP-NC with PID 18684 (E:\ProjectData\Java\Study_Material\StudyTestDemo\JavaProject\UtilsHub\UnitUtils\LogUtils\target\classes started by 聂晨 in E:\ProjectData\Java\Study_Material\StudyTestDemo\JavaProject\UtilsHub)
+2023-01-09 02:40:11.465 [main] INFO  cn.logback.LogbackApplication -[logStartupProfileInfo] Line:659- No active profile set, falling back to default profiles: default
+2023-01-09 02:40:11.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -[initialize] Line:108- Tomcat initialized with port(s): 8080 (http)
+2023-01-09 02:40:11.981 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -[log] Line:173- Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-09 02:40:11.981 [main] INFO  org.apache.catalina.core.StandardService -[log] Line:173- Starting service [Tomcat]
+2023-01-09 02:40:11.982 [main] INFO  org.apache.catalina.core.StandardEngine -[log] Line:173- Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-01-09 02:40:11.983 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2023-01-09 02:40:11.983 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-01-09 02:40:11.983 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-09 02:40:11.987 [main] INFO  org.apache.catalina.core.AprLifecycleListener -[log] Line:173- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2023-01-09 02:40:12.043 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -[log] Line:173- Initializing Spring embedded WebApplicationContext
+2023-01-09 02:40:12.043 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -[prepareWebApplicationContext] Line:290- Root WebApplicationContext: initialization completed in 547 ms
+2023-01-09 02:40:12.231 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -[log] Line:173- Starting ProtocolHandler ["http-nio-8080"]
+2023-01-09 02:40:12.264 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -[start] Line:220- Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-09 02:40:12.271 [main] INFO  cn.logback.LogbackApplication -[logStarted] Line:61 - Started LogbackApplication in 1.133 seconds (JVM running for 1.561)
+2023-01-09 02:40:14.965 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -[log] Line:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-09 02:40:14.965 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -[initServletBean] Line:525- Initializing Servlet 'dispatcherServlet'
+2023-01-09 02:40:14.966 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -[initServletBean] Line:547- Completed initialization in 1 ms

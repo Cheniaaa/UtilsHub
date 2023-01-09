@@ -26,6 +26,8 @@ import org.elasticsearch.search.suggest.Suggest;
 import org.elasticsearch.search.suggest.SuggestBuilder;
 import org.elasticsearch.search.suggest.SuggestBuilders;
 import org.elasticsearch.search.suggest.completion.CompletionSuggestion;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -51,7 +53,6 @@ public class TbHotelService extends ServiceImpl<TbHotelMapper, TbHotel> {
     public PageResult search(HotelParam param) {
         try {
             SearchRequest request = new SearchRequest("hotel");
-
             //查询条件
             boolQuery(param, request);
 
