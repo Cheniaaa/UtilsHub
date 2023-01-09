@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加jackson的MarkDown笔记">
-      <change afterPath="$PROJECT_DIR$/UnitUtils/LogUtils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitUtils/ScheduledUtils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticSearch/src/main/java/cn/es/service/TbHotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearch/src/main/java/cn/es/service/TbHotelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/BeanUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/BeanUtils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/BeanUtil/src/main/java/cn/mapstruct/mapper/mapping/UserInfoParamToDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/BeanUtils/src/main/java/cn/mapstruct/mapper/mapping/UserInfoParamToDtoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/BeanUtil/src/main/java/cn/mapstruct/model/dto/UserInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/BeanUtils/src/main/java/cn/mapstruct/model/dto/UserInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/BeanUtil/src/main/java/cn/mapstruct/model/param/UserInfoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/BeanUtils/src/main/java/cn/mapstruct/model/param/UserInfoParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/BeanUtil/src/main/java/cn/mapstruct/test/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/BeanUtils/src/main/java/cn/mapstruct/test/UserInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitUtils/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7dd277b0-5a73-4095-8591-c91e4a77a839" name="变更" comment="增加logback模块和schedule模块" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -392,7 +379,7 @@
       <workItem from="1671719354198" duration="9939000" />
       <workItem from="1673195064431" duration="75000" />
       <workItem from="1673195152146" duration="7717000" />
-      <workItem from="1673285916899" duration="5868000" />
+      <workItem from="1673285916899" duration="6235000" />
     </task>
     <task id="LOCAL-00001" summary="增加依赖">
       <created>1657558881136</created>
@@ -541,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671731243724</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="增加logback模块和schedule模块">
+      <created>1673292158410</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673292158410</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +583,8 @@
     <MESSAGE value="增加JsonGenerator和JsonParser" />
     <MESSAGE value="增加JsonGenerator的writeObjectField方法" />
     <MESSAGE value="增加jackson的MarkDown笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加jackson的MarkDown笔记" />
+    <MESSAGE value="增加logback模块和schedule模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加logback模块和schedule模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
